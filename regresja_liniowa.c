@@ -116,7 +116,7 @@ double niepewnosc_a = sqrt(niepewnosc_a_gora/niepewnosc_a_dol);
 printf("                                niepewnosc a wynosi : %.10f ",niepewnosc_a);
 printf("\n\n");
 printf("*************************************************************************\n");
-printf("your parameter a is:  (%e  +/-  %e)  *\n\n",wartosc_a,niepewnosc_a);
+printf("your parameter a is:  (%e  +/-  %e) \n\n",wartosc_a,niepewnosc_a);
 printf("*************************************************************************\n");
 
 return 1;
