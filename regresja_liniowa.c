@@ -101,7 +101,7 @@ printf("\n\n");
 double srednia_suma_kwadratowy= suma_kwadratowy/liczba_elem;
 printf(" srednia suma kwadratow y   %.10f", srednia_suma_kwadratowy);
 printf("\n\n");
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx teraz przechodzimy do wspolczynnikow
+// wspolczynniki :
 double wartosc_a=(srednia_suma_iloczynow-srednix*sredniy)/(srednia_suma_kwadratowx-sredni_kwadrat_sumyx);
 printf("                                wspolczynnik kierunkowy prostej wynosi :%.10f\n\n",wartosc_a);
 
@@ -116,7 +116,7 @@ double niepewnosc_a = sqrt(niepewnosc_a_gora/niepewnosc_a_dol);
 printf("                                niepewnosc a wynosi : %.10f ",niepewnosc_a);
 printf("\n\n");
 printf("*************************************************************************\n");
-printf("twoj wspolczynnik a wynosi (%e  +/-  %e)  *\n\n",wartosc_a,niepewnosc_a);
+printf("your parameter a is:  (%e  +/-  %e)  *\n\n",wartosc_a,niepewnosc_a);
 printf("*************************************************************************\n");
 
 return 1;
